@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Паспортные Д",
+  "name": "IISFffffffПаспортныеДE",
+  "className": "ПаспортныеДE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fffffff-паспортные-д",
+      "modelProjection": "ПаспортныеДE"
+    }
+  ]
+}

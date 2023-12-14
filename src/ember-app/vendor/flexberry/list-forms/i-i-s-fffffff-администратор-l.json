@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fffffff-администратор-e",
+  "editForm": "i-i-s-fffffff-администратор-e",
+  "external": false,
+  "caption": "Администратор",
+  "name": "IISFffffffАдминистраторL",
+  "className": "АдминистраторL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fffffff-администратор",
+      "modelProjection": "АдминистраторL"
+    }
+  ]
+}

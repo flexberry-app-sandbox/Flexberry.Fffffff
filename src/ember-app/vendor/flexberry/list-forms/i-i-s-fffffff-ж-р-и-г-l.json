@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fffffff-ж-р-и-г-e",
+  "editForm": "i-i-s-fffffff-ж-р-и-г-e",
+  "external": false,
+  "caption": "ЖРИГ",
+  "name": "IISFffffffЖРИГL",
+  "className": "ЖРИГL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fffffff-ж-р-и-г",
+      "modelProjection": "ЖРИГL"
+    }
+  ]
+}

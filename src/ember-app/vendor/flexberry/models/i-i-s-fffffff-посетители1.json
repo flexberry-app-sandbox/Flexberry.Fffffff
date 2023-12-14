@@ -1,0 +1,38 @@
+﻿{
+  "name": "IISFffffffПосетители1",
+  "modelName": "i-i-s-fffffff-посетители1",
+  "className": "Посетители1",
+  "nameSpace": "IIS.Fffffff",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": false,
+      "name": "анкетаКлиента",
+      "relatedTo": "i-i-s-fffffff-анкета-клиента",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "Посетители1E",
+      "modelName": "i-i-s-fffffff-посетители1",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "Посетители1L",
+      "modelName": "i-i-s-fffffff-посетители1",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,63 @@
+﻿{
+  "name": "IISFffffffТабличнаяЧасть1",
+  "modelName": "i-i-s-fffffff-табличная-часть1",
+  "className": "ТабличнаяЧасть1",
+  "nameSpace": "IIS.Fffffff",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имущество",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "стоимость",
+      "type": "decimal",
+      "flexberryType": "float",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "аОПИ",
+      "relatedTo": "i-i-s-fffffff-а-о-п-и",
+      "inverse": "табличнаяЧасть1"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧ1E",
+      "modelName": "i-i-s-fffffff-табличная-часть1",
+      "attrs": [
+        {
+          "name": "имущество",
+          "caption": "Имущество",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "стоимость",
+          "caption": "Стоимость",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

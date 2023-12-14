@@ -1,0 +1,59 @@
+﻿{
+  "name": "IISFffffffАдминистратор",
+  "modelName": "i-i-s-fffffff-администратор",
+  "className": "Администратор",
+  "nameSpace": "IIS.Fffffff",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": false,
+      "name": "анкетаКлиента",
+      "relatedTo": "i-i-s-fffffff-анкета-клиента",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "гостиница",
+      "relatedTo": "i-i-s-fffffff-гостиница",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "жРИГ",
+      "relatedTo": "i-i-s-fffffff-ж-р-и-г",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "персонал",
+      "relatedTo": "i-i-s-fffffff-персонал",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "АдминистраторE",
+      "modelName": "i-i-s-fffffff-администратор",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "АдминистраторL",
+      "modelName": "i-i-s-fffffff-администратор",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

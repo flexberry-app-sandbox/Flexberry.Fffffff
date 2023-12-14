@@ -1,0 +1,78 @@
+﻿{
+  "applicationCaption": "Fffffff",
+  "applicationTitle": "Fffffff",
+  "items": [
+    {
+      "link": null,
+      "menuName": "new-folder1",
+      "caption": "NewFolder1",
+      "title": "NewFolder1",
+      "children": [
+        {
+          "link": "i-i-s-fffffff-посетители1-l",
+          "menuName": null,
+          "caption": "Посетители1L",
+          "title": "Посетители1",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fffffff-а-о-п-и-l",
+          "menuName": null,
+          "caption": "АОПИL",
+          "title": "АОПИ",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fffffff-паспортные-д-l",
+          "menuName": null,
+          "caption": "ПаспортныеДL",
+          "title": "Паспортные Д",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fffffff-анкета-клиента-l",
+          "menuName": null,
+          "caption": "АнкетаКлиентаL",
+          "title": "Анкета клиента",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fffffff-должность-l",
+          "menuName": null,
+          "caption": "ДолжностьL",
+          "title": "Должность",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fffffff-администратор-l",
+          "menuName": null,
+          "caption": "АдминистраторL",
+          "title": "Администратор",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fffffff-гостиница-l",
+          "menuName": null,
+          "caption": "ГостиницаL",
+          "title": "Гостиница",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fffffff-ж-р-и-г-l",
+          "menuName": null,
+          "caption": "ЖРИГL",
+          "title": "ЖРИГ",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fffffff-персонал-l",
+          "menuName": null,
+          "caption": "ПерсоналL",
+          "title": "Персонал",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

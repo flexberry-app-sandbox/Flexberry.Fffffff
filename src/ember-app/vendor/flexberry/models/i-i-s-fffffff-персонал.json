@@ -1,0 +1,38 @@
+﻿{
+  "name": "IISFffffffПерсонал",
+  "modelName": "i-i-s-fffffff-персонал",
+  "className": "Персонал",
+  "nameSpace": "IIS.Fffffff",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "должность",
+      "relatedTo": "i-i-s-fffffff-должность",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПерсоналE",
+      "modelName": "i-i-s-fffffff-персонал",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПерсоналL",
+      "modelName": "i-i-s-fffffff-персонал",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

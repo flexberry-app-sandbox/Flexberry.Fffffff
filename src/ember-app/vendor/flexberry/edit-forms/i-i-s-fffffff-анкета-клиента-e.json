@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Анкета клиента",
+  "name": "IISFffffffАнкетаКлиентаE",
+  "className": "АнкетаКлиентаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fffffff-анкета-клиента",
+      "modelProjection": "АнкетаКлиентаE"
+    }
+  ]
+}

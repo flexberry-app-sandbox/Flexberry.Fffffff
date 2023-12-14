@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "АнкетаКлиента",
+      "projection": "АнкетаКлиентаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Посетители1",
+  "name": "IISFffffffПосетители1E",
+  "className": "Посетители1E",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fffffff-посетители1",
+      "modelProjection": "Посетители1E"
+    }
+  ]
+}

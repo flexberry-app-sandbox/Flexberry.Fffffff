@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fffffff-анкета-клиента-e",
+  "editForm": "i-i-s-fffffff-анкета-клиента-e",
+  "external": false,
+  "caption": "Анкета клиента",
+  "name": "IISFffffffАнкетаКлиентаL",
+  "className": "АнкетаКлиентаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fffffff-анкета-клиента",
+      "modelProjection": "АнкетаКлиентаL"
+    }
+  ]
+}

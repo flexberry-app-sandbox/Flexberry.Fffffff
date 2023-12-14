@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISFffffffЖРИГ",
+  "modelName": "i-i-s-fffffff-ж-р-и-г",
+  "className": "ЖРИГ",
+  "nameSpace": "IIS.Fffffff",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерЖурнала",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "табличнаяЧасть2",
+      "relatedTo": "i-i-s-fffffff-табличная-часть2",
+      "inverse": "жРИГ"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЖРИГE",
+      "modelName": "i-i-s-fffffff-ж-р-и-г",
+      "attrs": [
+        {
+          "name": "номерЖурнала",
+          "caption": "Номер журнала",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ТЧ2E",
+          "caption": "Табличная часть2",
+          "name": "табличнаяЧасть2",
+          "relatedTo": "i-i-s-fffffff-табличная-часть2",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЖРИГL",
+      "modelName": "i-i-s-fffffff-ж-р-и-г",
+      "attrs": [
+        {
+          "name": "номерЖурнала",
+          "caption": "Номер журнала",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

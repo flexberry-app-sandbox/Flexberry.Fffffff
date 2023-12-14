@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fffffff-посетители1-e",
+  "editForm": "i-i-s-fffffff-посетители1-e",
+  "external": false,
+  "caption": "Посетители1",
+  "name": "IISFffffffПосетители1L",
+  "className": "Посетители1L",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fffffff-посетители1",
+      "modelProjection": "Посетители1L"
+    }
+  ]
+}

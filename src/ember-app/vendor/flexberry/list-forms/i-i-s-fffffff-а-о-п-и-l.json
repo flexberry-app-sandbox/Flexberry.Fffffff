@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fffffff-а-о-п-и-e",
+  "editForm": "i-i-s-fffffff-а-о-п-и-e",
+  "external": false,
+  "caption": "АОПИ",
+  "name": "IISFffffffАОПИL",
+  "className": "АОПИL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fffffff-а-о-п-и",
+      "modelProjection": "АОПИL"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+﻿{
+  "name": "IISFffffffПаспортныеД",
+  "modelName": "i-i-s-fffffff-паспортные-д",
+  "className": "ПаспортныеД",
+  "nameSpace": "IIS.Fffffff",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "гражданство",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаРождения",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "инГражданин",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерПаспорта",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "серияПаспорта",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": false,
+      "name": "персонал",
+      "relatedTo": "i-i-s-fffffff-персонал",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": false,
+      "name": "посетители1",
+      "relatedTo": "i-i-s-fffffff-посетители1",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПаспортныеДE",
+      "modelName": "i-i-s-fffffff-паспортные-д",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаРождения",
+          "caption": "Дата рождения",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "серияПаспорта",
+          "caption": "Серия паспорта",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "номерПаспорта",
+          "caption": "Номер паспорта",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПаспортныеДL",
+      "modelName": "i-i-s-fffffff-паспортные-д",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаРождения",
+          "caption": "Дата рождения",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "серияПаспорта",
+          "caption": "Серия паспорта",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "номерПаспорта",
+          "caption": "Номер паспорта",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

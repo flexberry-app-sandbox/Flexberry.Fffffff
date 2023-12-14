@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fffffff-паспортные-д-e",
+  "editForm": "i-i-s-fffffff-паспортные-д-e",
+  "external": false,
+  "caption": "Паспортные Д",
+  "name": "IISFffffffПаспортныеДL",
+  "className": "ПаспортныеДL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fffffff-паспортные-д",
+      "modelProjection": "ПаспортныеДL"
+    }
+  ]
+}
